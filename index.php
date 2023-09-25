@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Word Frequency Counter</title>
@@ -16,13 +16,13 @@
         <label for="sort">Sort by frequency:</label>
         <select id="sort" name="sort">
             <option value="asc">Ascending</option>
-            <option value="desc">Descending</option>
+            <option value="desc" selected>Descending</option>
         </select><br><br>
         
         <label for="limit">Number of words to display:</label>
         <input type="number" id="limit" name="limit" value="10" min="1"><br><br>
         
-        <input type="submit" value="Calculate Word Frequency">
+        <input type="submit" value="Evaluate">
     </form>
 </body>
 </html>

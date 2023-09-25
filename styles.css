@@ -1,4 +1,7 @@
-/* Style the body and center the form */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -6,7 +9,6 @@ body {
     padding: 20px;
 }
 
-/* Style the form container */
 form {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -17,7 +19,6 @@ form {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Style form labels and inputs */
 label {
     font-weight: bold;
     display: block;
@@ -34,7 +35,6 @@ input[type="number"] {
     border-radius: 3px;
 }
 
-/* Style the submit button */
 input[type="submit"] {
     background-color: #007bff;
     color: #fff;
@@ -47,4 +47,35 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    display: inline-table;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr {
+    background-color: #568691;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #568691;
 }
